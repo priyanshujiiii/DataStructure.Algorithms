@@ -1,4 +1,4 @@
-<h1>Analysis of Algorith</h1>
+<h1>Analysis of Algorithm</h1>
 
 sum of n natural number 
 Input = 3 
