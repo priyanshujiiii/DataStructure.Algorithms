@@ -18,3 +18,13 @@ def getSmaller(l,x):
 l = [9,15,12,3,7,11]
 x = 10
 print(getSmaller(l,x))
+
+def getEvenOdd(l):
+   even = [x for in l if x %2==0]
+   odd = [x for in l if x%2 !=0]
+return even,odd
+
+l = [10,3,20,5,12]
+even,odd = getEvenOdd(l)
+print(even)
+print(odd)
