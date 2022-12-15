@@ -5,3 +5,8 @@ print(l.index(30))
 print(l.index(30,4,7))
 print(l.pop(10))
 del l[1]
+print(max(l))
+print(min(l))
+print(sum(l))
+l.reverse(l)
+l.sort(l)
