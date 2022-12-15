@@ -57,3 +57,10 @@ print(d2)
 l2 = [101,103,102]
 l3 = ["gfg","ide","courses"]
 d3 = {l2[i]:l3[i] for i in range (len(l2))}
+
+
+# inventing a dictionary (key becomes value)
+# and value become key)
+d1 = {101:"gfg", 103:"practice",102:"ide"}
+d2 = {v:k for(k,v) in d1.items()}
+print(d2)
