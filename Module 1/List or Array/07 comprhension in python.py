@@ -28,3 +28,13 @@ l = [10,3,20,5,12]
 even,odd = getEvenOdd(l)
 print(even)
 print(odd)
+
+# word
+s = "geekforgeeks"
+l1 = [x for x in s if x in "aeiou"]
+print(l1)
+l2 = ["geeks","ide","cowres","gfg"]
+l3 = [ x for x in l2 if x.startswith("g")]
+print(l3)
+l4 = [x*2 for x in range(6)]
+print(l4)
