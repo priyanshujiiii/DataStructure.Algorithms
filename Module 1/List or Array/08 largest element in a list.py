@@ -6,3 +6,16 @@ def getmax(l):
       else:
         return x
     return None
+
+
+#efficient solution
+
+def getmax(l):
+if not l:
+return None
+else:
+   res = l[0]
+   for i in range(1,len(len(l)):
+       if l[i] > res:
+          res = l[i]
+    return res
