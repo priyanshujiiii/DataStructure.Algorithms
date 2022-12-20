@@ -11,3 +11,12 @@ print(s.startwith("geeks"))
 print(s.endswith("course"))
 print(s.startwith("Geeks",1))
 print(s.startwith("geeks",8,len(s1))
+
+s1 = "geeks for geeks"
+print(s1.split(1))
+s2 = "geeks, for , geeks"
+print(s2.split(","))
+l = ["geeksforgeeks","python","course"]
+print(" ".join(l))
+print(",".join(l))
+
