@@ -25,3 +25,10 @@ print(",".join(l))
 print(s.strip("-"))
 print(s.lstrip("-"))
 print(s.rstrip("-"))
+
+s1 = "geeks for geeks"
+s2 = "geeks"
+print(s1.find(s2))
+print(s2.find("gfg"))
+n = len(s1)
+print(s1.find(s2,1,n))
