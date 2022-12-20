@@ -20,3 +20,8 @@ l = ["geeksforgeeks","python","course"]
 print(" ".join(l))
 print(",".join(l))
 
+#strip operation in string
+
+print(s.strip("-"))
+print(s.lstrip("-"))
+print(s.rstrip("-"))
